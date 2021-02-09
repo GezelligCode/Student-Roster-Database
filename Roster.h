@@ -15,7 +15,6 @@ using namespace Degrees;
 class Roster {
 public:
     void Add(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, enum DegreeProgram degreeProgram);
-    void Remove();
     void PrintAll();
     void PrintAverageDaysInCourse(string studentID);
     void PrintInvalidEmails();
